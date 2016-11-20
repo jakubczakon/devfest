@@ -1,0 +1,1350 @@
+
+Rustem Arzymbetov
+Google, Mountain View, United States
+Rustem is working at Google for last 8 years. Was in Search and Android teams. Big fan of performance optimizations.
+
+Sessions
+
+Intro to TensorFlow
+Cloud
+TensorFlow™ is an open source software library for numerical computation using data flow graphs. The flexible architecture allows you to deploy computation to one or more CPUs or GPUs in a desktop, server, or mobile devi...
+
+Read more
+
+
+
+Adrian Kajda
+Sygic, Opole, Poland
+Creator of Fuelio app. Fuelio was his hooby project started in 2012. Three years later the app was aquired by Sygic.
+
+Sessions
+
+Fuelio. Success story
+Android
+I'll tell you a little bit about Fuelio - my hobby project that became my full time job. In my presentation I'll show you that coding is only one part of the job. I'll share with you other aspects that were important whi...
+
+Read more
+
+
+
+Gerard Sans
+AngularZone, London, United Kingdom
+Angular Google Developer Expert
+Angular Google Developer Expert. I am a Computer Science Engineer specialised in Web. International speaker and trainer. I am an Angular fanboy and a community activist fighting for the JavaScript revolution. I have lived and worked for all sorts of companies in Germany, Brazil, UK and Spain. I am always up for a good challenge. I enjoy running AngularZone London, mentoring students, participating in the community, giving talks and writing technical articles at Medium.
+
+Sessions
+
+New Data Architecture in Angular 2
+Web
+Angular 2 introduces a new Data Architecture based on Reactive Programming using RxJS 5. We are really excited to see the new approach using Observable sequences aka Observables. We will cover a basic introduction of Ang...
+
+Read more
+
+
+
+Jozef Vodicka
+Google, Prague, Czech Republic
+Right now he is a passionate Googler helping developers and companies in South CEE to be more successful and profitable.
+
+He co-founded and lead several StartUPs such as Venzeo.com, TrashOut.ngo, Matura.sk and Stuzkova.EU.
+
+He is TEDx speaker, Slovak Forbes 30-under-30, IT auditor for AIESEC International & TOP 5 Student Entrepreneurs in Slovakia. He gets things done.
+
+Sessions
+
+How much money Firebase can save you (part 1)
+Cloud Workshop
+TBD
+
+Read more
+How much money Firebase can save you (part 2)
+Cloud Workshop
+TBD
+
+Read more
+
+
+
+Mateusz Herych
+IG, Krakow, Poland
+Android Google Developer Expert Google Developers Group Krakow
+Mateusz lives in Krakow, holds a membership in the Google Developer Expert program for Android. Works as an Android Tech Lead at IG. Co-organizer of GDG Krakow community meetups. Fresh dad of twins. For the third time at DevFest Ukraine.
+
+Sessions
+
+The ultimate guide to MVP pattern on Android
+Android
+There's a lot of hype around MVP pattern in the Android world. Now it's time for concretes. During his presentation Mateusz will tell you how IG divided responsibilities between pattern's different components, how they t...
+
+Read more
+
+
+
+Kseniia Shumelchyk
+SoftServe Inc., Dnipro, Ukraine
+Google Developers Group Dnipro
+Kseniia is working as software developer at SoftServe as well she has an experience of working on open-source project during Google Summer of Code. Kseniia is leading Women Techmakers Ukraine and GDG Dnipropetrovsk communities for 4 years. She participated in number of international conferences: GOTO Aarhus, Google I/O and GDG Leaders Summit and was a speaker at Droidcon Berlin, Women Techmakers Istanbul, GDG DevFest Ukraine, Codemotion Milan and Droidcon Krakow. In 2015 Kseniia was selected as recipient of Google Anita Borg Scholarship that aimed to support women with outstanding results in Computer Science. Kseniia is a big fan of innovative technologies in education and software development. She is creator of Android application for Women Techmakers Community.
+
+Sessions
+
+Building modular architecture apps with Dagger 2
+Android
+TBD
+
+Read more
+
+
+
+Konrad Dzwinel
+Brainly, Krakow, Poland
+Web Technologies Google Developer Expert Google Developers Group Krakow
+Konrad is a front-end developer at Brainly, Google Developer Expert for Web Technologies and co-organizer of Google Developers Group in Krakow. Over the years he worked for various startups, consultancies and software houses building websites, hybrid apps and internal tools. After work, he develops Chrome extensions, experiments with various front-end technologies, gives presentations and runs workshops.
+
+Sessions
+
+Going offline with Service Worker
+Web
+Last year brought a lot of new capabilities to browsers, fundamentally changing the way we will build web apps in the near future. Offline support is definitely one of the most exciting additions. In this talk, we will d...
+
+Read more
+
+
+
+Jean-Baptiste Clion
+Apeser, Basel, Switzerland
+Google Cloud Platform Google Developer Expert Google Developers Group Basel
+Jean-Baptiste Clion (AKA JB) is a senior cloud engineer working with Google Technologies since 2007. He is the founder and co-organiser of GDG Basel, Switzerland. Jean-Baptiste worked in various industries such as Defence & Aeronautics, Finance & Consulting. In his last position, JB was Google Practice Lead at Capgemini Switzerland, he is now co-founding a startup dedicated to Progressive Web Apps solutions relying on cloud technologies.
+
+Sessions
+
+Microservices in Google App Engine
+Cloud
+Microservices is coming with a certain workload and constraints. Let's try to see how Google Cloud Platform and App Engine can help the overall microservices implementation.
+
+Read more
+
+
+
+Vitaliy Zasadnyy
+GetSocial, Lviv, Ukraine
+Google Developers Group Lviv
+Vitaliy is a mobile developer, public speaker and community manager. He is eager about product perfection and scalability. Goes crazy about new IoT devices and Google products. Originally Vitaliy is from Ukraine, where he founded GDG Lviv. Now he is leading mobile department at GetSocial, startup based in The Netherlands. GetSocial is building the cloud-based mobile engagement platform that empowers any app developer with tools to maximise user acquisition, engagement, retention and monetization.
+
+Sessions
+
+J2ObjC. Cross platform development - Google way
+Android
+The war between mobile platforms is over. After several years of active competition, we’ve got two operating systems with almost the same quality and feature set.
+
+For mobile developers this means that all further projec...
+
+Read more
+
+
+
+Aleksander Piotrowski
+Applause, Warsaw, Poland
+Became a mobile developer after long run as a backend developer. Because of age, holding senior positions from the day one as an Android programmer. Serial hackathon winner, or at least contender ;-)
+
+Sessions
+
+Android tool-chain and run-time improvements in N
+Android
+Upcoming Android N release will bring some interesting changes to both Android run-time and toolchain. Let's talk about JIT, AOT, hybrid JIT/AOT, Jack, Jill and other acronyms and codenames ;-) In this presentation we'll...
+
+Read more
+
+
+
+Carmen Popovicu
+Widespread, Cluj-Napoca, Romania
+Carmen is a front-end engineer and a #1 fan of dev communities. She loves Angular but has since recently developed feelings for Polymer too. She strongly believes that adding at least one ASCII smiley in your emails will make the world a better place and hopes to one day make a difference for the web with the code she writes. If she had super powers, she would smiley all the things.
+
+Sessions
+
+On Polymer and smileys... or Polysmileys
+Web
+One of my favourite things about the web are ASCII smileys. They're sweet, fun and simply make the web a better place. How could anyone not like them ¯(ツ)/¯?
+
+This talk is an overdose of smileys, because they're the perf...
+
+Read more
+
+
+
+Sergii Khomenko
+Stylight, Munich, Germany
+Data scientist at one of the biggest fashion communities, STYLIGHT. Data analysis and visualisation hobbyist, working on problems not only in working time, but in free time for fun and personal data visualisations.
+
+Speaker at different conferences: Berlin Buzzwords 2014, ApacheCon Europe 2014, Puppet Camp London 2015, Munich Developer Camp, Berlin Buzzwords 2015, Tableau Conference on Tour - Berlin 2015, Budapest BI forum 2015, CrunchConf 2015, FOSDEM 2016, PyData Amsterdam 2016
+
+Sessions
+
+Building data pipelines: from simple to more advanced - hands-on experience
+Cloud
+Data is becoming one of the main decision-makers in an organisation. The more data we have the more challenges we face every day. Every decision we make will have long-term implications. In the talk we will go through di...
+
+Read more
+
+
+
+Dmytro Danylyk
+Timee, Lviv, Ukraine
+Android Google Developer Expert Google Developers Group Lviv
+Dmytro is a developer, writer, speaker. He live in Lviv - a quaint and beautiful city. He is passionate about android and flat design. Currently Dmytro works for a startup Timee where he develop Android application and he love what he do.
+
+Sessions
+
+Kotlin + Android
+Android
+TBD
+
+Read more
+
+
+
+Jana Moudra
+Juicymo, Prague, Czech Republic
+Dart Google Developer Expert Google Developers Group Prague
+GDE (Google Developer Expert) for Dart. Jana is a passionate developer and modern web and mobile technology evangelist. She is an event organiser for GDG Prague, where she arranges events for developers including public lectures, code labs and hackathons – covering a wide range of subjects including technologies Dart or Android. She loves to help other developers and spread the knowledge about these technologies.
+
+Jana co-founded a company called Juicymo, where she works on juicy apps and products and teaches at Unicorn College.
+
+Sessions
+
+Hands-on with UI testing for Android developers (part 1)
+Android Workshop
+Writing Android apps is usually fun because you are actually building something. But what about writing tests? Boring stuff. Errr, UI tests? I am a developer!
+
+In this talk we will take a look at options for UI tests on...
+
+Read more
+Hands-on with UI testing for Android developers (part 2)
+Android Workshop
+Writing Android apps is usually fun because you are actually building something. But what about writing tests? Boring stuff. Errr, UI tests? I am a developer!
+
+In this talk we will take a look at options for UI tests on...
+
+Read more
+Hands-on with UI testing for Android developers (part 3)
+Android Workshop
+Writing Android apps is usually fun because you are actually building something. But what about writing tests? Boring stuff. Errr, UI tests? I am a developer!
+
+In this talk we will take a look at options for UI tests on...
+
+Read more
+
+
+Jakub Škvára
+Shipito, Prague, Czech Republic
+Google Developers Group Prague
+Jakub is a front-end engineer at Shipito interested in modern web frameworks, libraries and tools. Jakub is also a member of GDG Prague and GDG ČVUT in the Czech republic.
+
+Sessions
+
+Progressive web apps - prepare your web for 2017
+Web
+Remember back when AJAX completely changed what was possible in the desktop web? Progressive web apps are that same fundamental shift for the mobile web." said Rahul Row-Chowdhury (Google’s product lead for chrome and th...
+
+Read more
+Offline-first progressive web apps (part 1)
+Web Workshop
+Using service workers and other modern progressive web apps capabilities we can update our web applications to be offline-fires. In this session we'll show how to easily convert your applications be usable without the in...
+
+Read more
+Offline-first progressive web apps (part 2)
+Web Workshop
+Using service workers and other modern progressive web apps capabilities we can update our web applications to be offline-fires. In this session we'll show how to easily convert your applications be usable without the in...
+
+Read more
+Offline-first progressive web apps (part 3)
+Web Workshop
+Using service workers and other modern progressive web apps capabilities we can update our web applications to be offline-fires. In this session we'll show how to easily convert your applications be usable without the in...
+
+Read more
+
+
+
+David Vávra
+Step Up Labs, Prague, Czech Republic
+Android Google Developer Expert
+David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture. He currently focuses on Firebase for Android. He loves open-source and gadgets like Android Wear or Android TV. He is the core organiser of GDG Prague events.
+
+Sessions
+
+Firebase + Kotlin + RxJava + MVP: Practical Tips
+Android
+New Firebase products announced at I/O make an Android developer’s life so much easier. We have been happily developing with it since January 2016. Sample projects work great, but what if your database structure is compl...
+
+Read more
+
+
+
+Valentyn Shybanov
+Wolters Kluwer, Kyiv, Ukraine
+Cloud Google Developer Expert Google Developers Group Kyiv
+Google Developer Expert on Cloud. Co-organizer of GDG Kyiv-Center.
+
+Sessions
+
+Highlevel overview of the Angular 2
+Web
+In the session, we'll talk about the current state of the Angular 2 and usages to build progressive web apps, mobile apps (hybrid and native). How to get the best performance from the Angular and serverside rendering.
+
+T...
+
+Read more
+
+
+
+Sergiy Mokienko
+Leverate, Kyiv, Ukraine
+Google Developers Group Kyiv
+Sergiy is an android developer that has experience from building apps from scratch to developing android based sdks and libraries for other applications. He has more than 10 applications successfully published on Google Play. Former GDG chapter lead in Nikolaev. Currently he is leading a team that builds broker software for 60+ different brokers.
+
+Sessions
+
+Continuous Integration in Android
+Android
+You are tired of building every patch for your QA ? Still deploying to google play manually ? You still think that build server is something that you don't need ? Than I will try to show you how you can make life of your...
+
+Read more
+
+
+
+Ihor Dvoretskyi
+Mirantis, Lviv, Ukraine
+Google Developers Group Lviv
+Ihor is a Deployment Engineer at Mirantis with a huge experience working in IT companies, where he was responsible for projects tightly bound to Cloud computing and Linux systems. He is deeply interested in the OpenStack cloud platform, other Cloud technologies, especially the Open Source projects. Also, Ihor acts as the OpenStack Foundation member, Kubernetes upstream contributor, and OpenStack special interest group lead in Kubernetes Community, working intensely on the questions and abilities, related to the OpenStack and Kubernetes collaboration and integration.
+
+Sessions
+
+Application Delivery with OpenStack and Kubernetes
+Cloud
+OpenStack is the open-source cloud computing platform for building elastic and scalable clouds, originally launched by NASA and Rackspace and now developed and maintained by over 150 different contributing organizations....
+
+Read more
+
+
+
+Michael Pustovit
+Stanfy, Kyiv, Ukraine
+Michael is a software engineer at Stanfy. He is KPI FICT Computer Science graduate and has 4+ years in Android development. Michael moderates KyivAndroidDevClub. Besides programming, he is a capoeira player.
+
+Sessions
+
+Android hacking for dummies: ‘if’ operator demolytion
+Android
+Imagine the world where you can get any application, look into its code (even if it is not open sourced) and modify any conditional operator in any way you like. Welcome, you are in the Android applications world! Let's...
+
+Read more
+
+
+Anton Minashkin
+EPAM, Lviv, Ukraine
+Android developer, currently works at EPAM. Have experience in both server and mobile side development. All my free time I spend on the endless search of silver bullets, perfect architectures and holy wars.
+
+Sessions
+
+ExoPlayer: Media playback without pain (almost...)
+Android
+If you have any experience with Android Media Player, you definitely know how hard it is to prepare it and do not lose your mind. ExoPlayer - is an alternative, which can help you deal with media with much less pain. So...
+
+Read more
+
+
+Constantine Mars
+DataArt, Dnipro, Ukraine
+Google Developers Group Dnipro
+Constantine is Senior Android Developer at DataArt and GDG Dnipro Organizer. He was speaker on DevFest, multiple IT NonStop events and GDG meetups. Constantine is interested mainly in Android Wear platform, RxJava, best practices in applications Architecture, and sometimes cross-platform mobile development with Xamarin.
+
+Sessions
+
+Android Wear 2.0: Great Changes Upcoming this Fall
+Android
+Google announced Android Wear 2.0 become available this Fall. This major update brings some revolutionary changes in platform, that should change our approaches in developing wearable apps, including freedom of BLE tethe...
+
+Read more
+
+
+Resul Caner Yildirim
+InnovationBox, Istanbul, Turkey
+UI/UX Google Developer Expert Google Developers Group Istanbul
+Caner is a GDE on UX/UI who is also a technology geek. Mainly focused on the design and marketing of mobile applications. Passionate about good UX, IoT and Android. He works at InnovationBox, a design agency in Istanbul making and creating apps that users love. Caner has been an organiser of GDG Istanbul since 2013, organising, participating, and speaking at events.
+
+Sessions
+
+Accessibility on Android
+Android
+Accessibility is a very important step to make sure that your app reaches everyone in an easy and fun way to use. Good accessibility support means much more than just making sure the app supports screen readers, differe...
+
+Read more
+Designing an Android Wear Application (part 1)
+Android Workshop
+Wearable devices are one of the most popular things nowadays. Specially, after the Apple Watch, we finally get the whole picture of the entire list of products and their features. Now, we can talk about how we can design...
+
+Read more
+Designing an Android Wear Application (part 2)
+Android Workshop
+Wearable devices are one of the most popular things nowadays. Specially, after the Apple Watch, we finally get the whole picture of the entire list of products and their features. Now, we can talk about how we can design...
+
+Read more
+
+
+
+Roman Herasymenko
+Yamert, Dnipro, Ukraine
+Android Google Developer Expert Google Developers Group Dnipro
+Roman is a technology geek, leading developer with 10+ years of experience, and a Google Developer Expert on Android at Yamert company. He is skilled in building cutting-edge mobile apps, mainly developing for Android and wearable devices.
+
+For the last three years Roman is a leader at GDG Dnipropetrovsk, where he had already organized a variety of local meet-ups, conferences and hackathons.
+
+Sessions
+
+Deal with it: Android DataBinding explained
+Android
+In this talk, I will reveal you all the deepest secrets of using MVVM architecture in Android. We will discuss on how to organise your application, views, models, how to retrieve data from the model requested from the v...
+
+Read more
+
+
+Dmytro Zaitsev
+Lohika Inc., Kyiv, Ukraine
+Dmytro is a Senior/Lead Mobile Developer at Lóhika, specializing in developing Android apps. He loves learning new domains and creating big systems that are manageable and amenable to change. He's more than five years professionally engaged in developing mobile system-, multimedia-, business-, promo applications and social networks.
+
+
+Professor Fortran
+Podcast, Lviv, Ukraine
+Professor Fortran is podcast about tech news and IT prepared in an easy and caual way. Check YouTube channel to learn more.
+
+Sessions
+
+Fireside Chat. Hosted by Professor Fortran
+General Android Web Cloud
+Our friends from Professor Fortran Videocast decided to record a session at the DevFest Ukraine. Wait for a casual conversation with our speakers about IT. More details comming soon...
+
+Read more
+
+
+
+Matthew Mosesohn
+Mirantis, Moscow, Russia
+Matthew develops automated systems for deploying Kubernetes and Openstack. He has worked on automating bare metal provisioning, configuration management, and HA systems. Matthew strives to keep configuration management minimal by pushing changes into core applications, as opposed to workarounds.
+
+Sessions
+
+Kubernetes: More than just a toy
+Cloud
+The presentation covers automation of Kubernetes installation with Kargo. It has not so many working parts, but achieving real production HA takes work. We will cover deployment on bare metal and on clouds, such as GCE a...
+
+Read more
+
+
+Michal Rostecki
+Mirantis, Poznan, Poland
+Michal works as a Software Engineer at Mirantis. He codes in Golang and Python and is strong supporter of open source. Currently a Kubernetes contributor, formerly an OpenStack contributor.
+
+Sessions
+
+Introduction to Golang
+Cloud
+Go becomes more and more popular language. It's strongly focused on concurrency and breaks the traditional approach to object-oriented programming. And it's made by Google for the software written by Google. If you want...
+
+Read more
+
+
+Martin Splitt
+Archilogic, Zurich, Switzerland
+Martin is pretty decent at humaning and pretty good at computering, so he decided to use his computering to improve his and other's humaning.
+
+He loves the open web and open source and helps to make things better with, but not limited to, code.
+
+Sessions
+
+Build a Progressive Web App with Firebase and Polymer (part 1)
+Web Workshop
+In this codelab, you'll learn how to make a progressive web app using Firebase and Polymer Web Components. You'll connect pre-made view components to Firebase data components to build an app that features user authentica...
+
+Read more
+Build a Progressive Web App with Firebase and Polymer (part 2)
+Web Workshop
+In this codelab, you'll learn how to make a progressive web app using Firebase and Polymer Web Components. You'll connect pre-made view components to Firebase data components to build an app that features user authentica...
+
+Read more
+Practical WebGL with Three.js
+Web
+Create interactive 3D worlds in your browser - no plugins needed, just JavaScript.
+
+We will explore what it takes to get 3D graphics into your browser and how to load and interact with 3D models and get our hands on Thre...
+
+Read more
+
+
+Peter Tuszynski
+inFullMobile, Warsaw, Poland
+Peter is a developer turned entrepreneur turned CTO. He currently works at inFullMobile delivering delightful mobile products and also at HardGamma Ventures where he helps early stage startups take off the ground.
+
+Sessions
+
+Keynote. How to take off in 2016
+General Startups Entrepreneurship
+It's 2016 and turning your idea from just a concept in your head to a startup is easier than ever, but sometimes that road can get a bit turbulent. Let's talk about making your take off smooth, quick and fun!
+
+Read more
+
+
+
+Mete Atamel
+Google, London, United Kingdom
+I'm a Developer Advocate at Google, currently focused on helping developers with Google Cloud Platform. As a long-time Java and a recent C# developer, I like to compare the two ecosystems. Prior to Google, I worked at Microsoft, Skype, Adobe, EMC, and Nokia building apps and services on various web, mobile and cloud platforms. Originally from Cyprus, I currently live in Greenwich, not too far away from the prime meridian.
+
+Sessions
+
+Building Node.js apps on Google Cloud Platform
+Backend App Engine Node.js Google Cloud Platform
+Node.js makes building web applications that perform at scale easy - Google App Engine makes running Node.js in production fun. In this session, we're going to learn about the various ways to run Node.js applications on...
+
+Read more
+
+
+David Vávra
+Step Up Labs, Prague, Czech Republic
+Android Google Developer Expert Google Developers Group Prague
+David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture. He currently focuses on Firebase for Android. He loves open-source and gadgets like Android Wear or Android TV. He is the core organiser of GDG Prague events.
+
+Sessions
+
+Firebase + Kotlin + MVP + Rx: Practical Tips
+Frontend Android Firebase MVP
+New Firebase products announced at I/O make an Android developer’s life so much easier. We have been happily developing with it since January 2016. Sample projects work great, but what if your database structure is compl...
+
+Read more
+Firebase CodeLab
+Backend Firebase CodeLab
+Google Developers Codelabs provide a guided, tutorial, hands-on coding experience with Firebase. All needed information for codelabs is right <a href='https://codelabs.developers.google.com/?cat=Firebase&utm_campaign=dev...
+
+Read more
+
+
+
+Sofiya Huts
+JustAnswer.com, Lviv, Ukraine
+Google Developers Group Lviv
+Sofia is a manager of GDG Lviv (http://lviv.gdg.org.ua/) and also leads local WTM (Women Techmakers https://www.womentechmakers.com/) community in Lviv. Additionally, one of organisers of GDG DevFest Ukraine (https://devfest.gdg.org.ua/). Despite that fact that Sofia has been working as Full-stack .Net developer during last 2 years, she is really passionate about front-end stuff, especially everything related to Progressive Web Apps and developing fancy web application using Polymer.
+
+Sessions
+
+Wanna more fire? - Let's try polymerfire!
+Frontend Polymer Firebase
+Have you ever tried to build Web application using Polymer with Firebase integration, additionally adhere to PWA's canons? I have, and know how many surprises can be found during developmet :). Polymerfire is a great Pol...
+
+Read more
+Firebase CodeLab
+Backend Firebase CodeLab
+Google Developers Codelabs provide a guided, tutorial, hands-on coding experience with Firebase. All needed information for codelabs is right <a href='https://codelabs.developers.google.com/?cat=Firebase&utm_campaign=dev...
+
+Read more
+
+
+
+Honza Slavík
+OVAX, Prague, Czech Republic
+Honza is professional Jedi Knight. His work is care about balance of power at galaxy and czech companies. Do not try to understand me. You could go crazy over it. ;)
+
+Sessions
+
+Projektoví Zombíci
+Management Entrepreneurship Project management
+Projektové řízení je plné přežitých dogmat a nesmyslů, které ovšem stále předáváme dál a ještě hůře, vyžadujeme u certifikací. A přitom většinu teorie můžeme s klidem zahodit a k celé problematice přistupovat jinak. Kost...
+
+Read more
+
+
+
+Resul Caner Yıldırım
+InnovationBox, Istanbul, Turkey
+UI/UX Google Developer Expert Google Developers Group Istanbul
+Caner is a GDE on UX/UI who is also a technology geek. Mainly focused on the design and marketing of mobile applications. Passionate about good UX, IoT and Android. He works at InnovationBox, a design agency in Istanbul making and creating apps that users love. Caner has been an organiser of GDG Istanbul since 2013, organising, participating, and speaking at events.
+
+Sessions
+
+Improve Your Android App's UX With Accessibility
+Frontend Android UI/UX
+Accessibility is a very important step to make sure that your app reaches everyone in an easy and fun way to use. Good accessibility support means much more than just making sure the app supports screen readers, differen...
+
+Read more
+
+
+Petr Ferschmann
+puzzlette, Pilsen, Czech Republic
+Co-founded and operated cloud based accounting system ABRA @FlexiBee. Loves backend and so he is involved in @fnxio. Now he's starting a new project.
+
+Sessions
+
+REST API je mrtvé, ať žije GraphQL
+Backend Web GraphQL REST API
+REST se stal standardem pro API. Poslední dobou se ale ukazuje, že není vhodné pro uživatelské rozhraní. Facebook nám nabídl GraphQL a skvělou knihovnu Relay, která usnadňuje a zrychluje práci s daty v aplikacích.
+
+Read more
+
+
+Juraj Oceliak
+eMan.cz, Prague, Czech Republic
+Android Teamleader at eMan.cz where I work on variety of projects for large customers.
+
+Sessions
+
+Android Sucks
+Frontend Android
+When you don't want android code in your app
+
+Read more
+
+
+
+Jaroslav Holaň
+TopMonks, Prague, Czech Republic
+Aktuálně je součástí týmu TopMonks v Praze, kde se podílí na vývoji pro velkou českou banku. Pracovní zkušenosti získal ve firmách Česká Spořitelna, Hewlett Packard, Vendavo, Nokia, Tieto. Jeden z organizátorů konference o budoucnosti práce Wisephora. Primárně programuje v Javě, ale rád zkouší i jiné jazyky. Pravidelný účastník Coderetreatů, celodenních cvičení pro zdokonalování programátorských technik. Zastánce čistého kódu, TDD, BDD. Spoluautor knihy Vaadin 7 Cookbook. IT Geek a Kouzelník.
+
+Sessions
+
+Techniky duševní práce
+Management Innovation
+Pojďme se společně zamyslet co to znamená pracovat jako znalostní pracovník, jako programátor. Jak z této činnosti vydat maximum. Jak efektivně využít náš hlavní nástroj - mozek. Přiblížíme si pojmy jako je hluboká práce...
+
+Read more
+
+
+
+Oleh Zasadnyy
+N-iX / GDG Lviv, Lviv, Ukraine
+Google Developers Group Lviv
+Oleh is a front-end developer who is passionate by new technologies and design. He also is a GDG Lviv organizer last 5 years, which is famous for their high-level organized conferences. Besides that, he participates in GDG design competitions and always in the top three. Oleh has created several front-end Open Source projects. The most popular are event website templates, one of them you are looking at.
+
+Sessions
+
+Make your Polymer web-app Progressive
+Frontend Polymer Web
+Polymer helps you organize your app and make it more meaningful. In this talk, I will show you how to make your app load faster with app shell, lazy loading etc. and another Tip and Tricks in PWA.
+
+Read more
+
+
+Silvana Wasitova
+Wasitova Solutions, Lausanne, Switzerland
+Silvana Wasitova CSP and PMP, started her Scrum journey as part of the Agile transformation at Yahoo!, and used Scrum to successfully deliver FIFA Worldcup 2006 and Olympics 2008 portals. Silvana has coached multinational enterprises in their Agile transformation journeys in United States and across Europe. Silvana lives and breathes the agile value of “People over Process”, and brings that to the forefront in her coaching approaches, while still focused on the client’s audacious goals and desired results. Her experiences include implementing and coaching scrum transformation in Yahoo, Nestle, Roche, Skype, Microsoft, Aviva and a private Swiss bank.
+
+Sessions
+
+Iterative Product Development
+Management Entrepreneurship Agile Scrum
+We have an idea for a great product! Or do we? In this session we will explore cases where iterations can help define and grow the best product.
+
+Read more
+
+
+Tomáš Zvěřina
+FNX.io, Prague, Czech Republic
+Cloud Google Developer Expert
+Full stack developer, Google Developer Expert for Cloud Platform, Dart enthusiast, father of kids and OSS libraries.
+
+Sessions
+
+Angular2.Dart
+Frontend Dart Angular2
+How to start developing in Dart and how to build applications with Angular2.
+
+Read more
+
+
+
+Jakub Zíka
+AIMTEC, Pilsen, Czech Republic
+Student of University of West Bohemia and programmer at AIMTEC a.s. Interested in bleeding edge technology, mostly from Google
+
+Sessions
+
+Google Tango
+General
+Tablet vyvinutý společností Google, který umožňuje skenování 3D prostoru, promítání virtuální reality a plno dalších možností.
+
+Read more
+
+
+Světlana Margetová
+Keboola, Prague, Czech Republic
+iOS developer with orientation on the best UI/UX during developing and preparing mobile app. I am data analyst now, but I can effectively connect data information with mobile use cases with focus on IoT systems, sensors and other smaller devices. Skills: Swift, Firebase, UI/UX
+
+
+Tomáš Kypta
+Avast, Prague, Czech Republic
+Tomas is an Android developer and architect at Avast. He’s focusing on designing the architecture of Android applications, libraries and SDKs as well as pushing good coding and testing practices.
+
+Sessions
+
+Guide to the jungle of testing frameworks (part 1)
+Frontend Android
+There are many tools, libraries and frameworks available for Android developers to test their applications. The jungle is huge and it's not easy to find the right ones. Some frameworks are good for unit testing, some are...
+
+Read more
+Guide to the jungle of testing frameworks (part 2)
+Frontend Android
+There are many tools, libraries and frameworks available for Android developers to test their applications. The jungle is huge and it's not easy to find the right ones. Some frameworks are good for unit testing, some are...
+
+Read more
+
+
+Milan Lempera
+Angular.cz, Žďár nad Sázavou, Czech Republic
+Programátor s pozitivním vztahem k automatizaci a čistému kódu. Postupy, které mi fungují se snažím předávat dál na školeních (angular.cz), nebo na akcích GDG Jihlava
+
+Sessions
+
+Angular2.js Workshop (part 1)
+Frontend Angular.js 2
+Pokud se chystáte na workshop Angular 2, nezapomeňte si vzít laptop ;) a nepřehlédněte tento repozitář, kterrý si pro Vás kluci připravili <a href='https://bitbucket.org/angular_cz/devfest-angular2-workshop' target='_bla...
+
+Read more
+Angular2.js Workshop (part 2)
+Frontend Angular.js 2
+Pokud se chystáte na workshop Angular 2, nezapomeňte si vzít laptop ;) a nepřehlédněte tento repozitář, kterrý si pro Vás kluci připravili <a href='https://bitbucket.org/angular_cz/devfest-angular2-workshop' target='_bla...
+
+Read more
+Angular2.js Workshop (part 3)
+Frontend Angular.js 2
+Pokud se chystáte na workshop Angular 2, nezapomeňte si vzít laptop ;) a nepřehlédněte tento repozitář, kterrý si pro Vás kluci připravili <a href='https://bitbucket.org/angular_cz/devfest-angular2-workshop' target='_bla...
+
+Read more
+
+
+Víťa Plšek
+Angular.cz, Brno, Czech Republic
+S programováním začal v útlém věku díky časopisu ABC, vyzkoušel množství technologií a dnes jsou jeho hlavním zaměřením webové aplikace, těm se věnuje už od roku 2000. Považuje se za konzervativního a je přesvědčený že pro každou doménu se má používat ta správná technologie. Javascript vnímá jako příjemný jazyk, AngularJS jako stabilní inženýrský nástroj a psaní jednotkových testů považuje za činnost šetřící čas.
+
+Sessions
+
+Angular2.js Workshop (part 1)
+Frontend Angular.js 2
+Pokud se chystáte na workshop Angular 2, nezapomeňte si vzít laptop ;) a nepřehlédněte tento repozitář, kterrý si pro Vás kluci připravili <a href='https://bitbucket.org/angular_cz/devfest-angular2-workshop' target='_bla...
+
+Read more
+Angular2.js Workshop (part 2)
+Frontend Angular.js 2
+Pokud se chystáte na workshop Angular 2, nezapomeňte si vzít laptop ;) a nepřehlédněte tento repozitář, kterrý si pro Vás kluci připravili <a href='https://bitbucket.org/angular_cz/devfest-angular2-workshop' target='_bla...
+
+Read more
+Angular2.js Workshop (part 3)
+Frontend Angular.js 2
+Pokud se chystáte na workshop Angular 2, nezapomeňte si vzít laptop ;) a nepřehlédněte tento repozitář, kterrý si pro Vás kluci připravili <a href='https://bitbucket.org/angular_cz/devfest-angular2-workshop' target='_bla...
+
+Read more
+
+
+Vít Listík
+Seznam.cz, Prague, Czech Republic
+Vít is anti-spam software developer at Email.cz. Working with big data and using machine learning in Python.
+
+Sessions
+
+Using Docker for Machine learning
+Machine Learning Docker
+Have you always wanted to use machine learning in you projects, but the initial setup it just too complicated?I will tell you how to simplify installation of machine learning frameworks with Docker without pain. Then we...
+
+Read more
+
+
+Ivan Kutil
+Etnetera AppSatori, Prague, Czech Republic
+Apps Script Google Developer Expert
+I'm a graduate Engineer with a creative mind. I have experience and deep knowledge of Google products, services and API. Now I'm highly focused on Google Apps Scripts and helping to automate business processes.
+
+Sessions
+
+Apps Script Workshop (part 1)
+Backend Apps Script
+TBD
+
+Read more
+Apps Script Workshop (part 2)
+Backend Apps Script
+TBD
+
+Read more
+
+
+
+Michal Havryluk
+TANGO software, Prague, Czech Republic
+Head of Development at TANGO software, Android developer, lecturer at FIT CTU, former editor at Mobil.iDNES.cz and videogames journalist.
+
+Sessions
+
+Správa závislostí Android projektu
+Frontend Android Dependency Management
+Přidat novou knihovnu k projektu je velmi snadné. Málokdo ale již zkoumá, co taková závislost přináší a co může bez vašeho vědomí změnit. Na problematiku se podíváme zejména z pohledu systému Gradle a Android manifestu....
+
+Read more
+
+
+
+Anna Šenk
+olap.cz, Prague, Czech Republic
+Anička began in the Startup DameJidlo.cz. In the span of four years, she put together a team of 150 people and became the COO of DameJidlo.cz She then successfully showed off her knowledge and abilities again in the Startup Rohlik.cz. In a year of being in the position of logistics manager of Rohlik.cz, she's launched the largest network of couriers here. Now she is putting together a network of independent developers and is trying to fix what Czech education failed at. She enjoys opening people's eyes and giving them a chance to change their lifestyle.
+
+Sessions
+
+OLAP Framework - Svoboda pro vývojáře!
+Management Entrepreneurship
+Získejte svobodu pracovat odkudkoliv po celém světě a svobodu a pracovat kdykoliv během dne.
+
+Read more
+
+
+David Moravek
+Seznam.cz, a.s., Prague, Czech Republic
+As a DevOps engineer, David is performance tuning Seznam's hadoop infrastructure and makes sure all parts of fulltext web crawler run smoothly.
+
+Sessions
+
+Seznam se s Kafkou
+Backend BigData Kafka
+Terabytům se směje, s petabyty se kamarádí. Tam, kde tradiční messaging selhává, přichází Kafka. Pojďme si společně představit nejvýkonnější a nejpoužívanější messaging platformu pro zpracovaní velkých dat. Co nabízí, ja...
+
+Read more
+
+
+Ondřej Veselý
+Kiwi.com & FlowerChecker.com, Brno, Czech Republic
+Mixture of startup optimist, corporate agile worker, non-profit enthusiastics dreamer, teacher and strict science analyst.
+
+Sessions
+
+BigQuery, introduction
+Backend BigQuery
+What it is, what for it is (where it fits), what is under the hood. Web interface, API. Description of use case in Kiwi.com with benchmark. Maybe comparison with Cassandra and Postgres.
+
+Read more
+
+
+Jan Brnka
+AIMTEC a.s., Plzeň, Czech Republic
+V AIMTECu pracuji od roku 2006 jako součást padesátihlavého týmu, který zajišťuje dodávku našeho vlastního produktu DCIx. Začal jsem jako programátor, ale posledních 6 let buduji vývojovou část tohoto týmu.Společně jsme dosáhli spousty úspěšných implementací a produkt jsme dotáhli na světovou úroveň. Jsem rád za přátelské vztahy, prostředí, férovou komunikaci, a vůbec za celou atmosféru, která u nás panuje. Taky mě těší, když vidím, jak se ze studentů u nás stávají profesionální programátoři, které nám závidí zákazníci i konkurence.
+
+Sessions
+
+Plánování dodávky informačního systému v multi-projektovém prostředí
+Management Project Planning
+Jak naplánovat práci týmu v prostředí, kdy běží několik projektů souběžně najednou a každý člen týmu participuje na více projektech? Jaké termíny zákazníkovi slíbit? Jak ověřit, že projekt jde správným směrem a neovlivní...
+
+Read more
+
+
+Alan Fabik
+BigClown Labs s.r.o., Jablonec nad Nisou, Czech Republic
+Alan Fabik je spoluzakladatel BigClown Labs, spin-offu Jablotronu vyvíjejícím open-source systém domácí automatizace. Vystudoval metalurgii na VŠB Ostrava, ale přesunul se k elektronice a na sever Čech. Má rád svou rodinu a běhání.
+
+Sessions
+
+Open-source a zároveň bezpečná domácí automatizace
+IoT Open Hardware
+Architektura systému, bezpečnostní opatření, komponenty a jejich funkce, řízení projektu
+
+Read more
+BigClown Workshop (part 1)
+IoT Open Hardware
+TBD
+
+Read more
+BigClown Workshop (part 2)
+IoT Open Hardware
+TBD
+
+Read more
+BigClown Workshop (part 3)
+IoT Open Hardware
+TBD
+
+Read more
+BigClown Workshop (part 4)
+IoT Open Hardware
+TBD
+
+Read more
+
+
+
+Michala Stražovská
+Zoot, Prague, Czech Republic
+Happiness Resources Brand Builder @ ZOOT. Life cheerleader, somatic coach, psychologist, massage therapist, article scribbler, (IT) recruiter, glasses lover.
+
+Sessions
+
+Když ptáčka lapají...
+Management
+Na co si mají ajťáci dávat pozor při výběru nové práce? Kde hledat, koho odpálkovat, na co se ptát? Co je to ta firemní kultura, kde se projevuje a proč je důležitá?
+
+Read more
+
+
+Petr Hamerník
+Geneea Analytics, Prague, Czech Republic
+Ještě během matfyzu byl u vzniku NetBeans, 10let pracoval na softwaru pro farmaceutický výzkum, v současnosti se věnuje textové analytice ve startupu Geneea.
+
+Sessions
+
+Jak zařídit, aby počítače četly za nás
+Machine Learning
+Na světě vzniká enormní množství textu. Každý z nás je zavalen více texty než může zvládnout přečíst, natož pochopit a zanalyzovat. Naštěstí pomocí textové analytiky vám počítače mohou pomoci najít v textech to důležité....
+
+Read more
+
+
+Pavel Hübner
+BigClown Labs s.r.o., Czech Republic
+Pavel Hübner je od dětství nadšencem do elektroniky. 10 let působil na pozici vývojáře hardware a firmware ve společnosti JABLOTRON ALARMS. V roce 2016 se stal spoluzakladatelem společnosti BigClown Labs a pracuje na vývoji open-source elektroniky pro domácí automatizaci.
+
+Sessions
+
+BigClown Workshop (part 1)
+IoT Open Hardware
+TBD
+
+Read more
+BigClown Workshop (part 2)
+IoT Open Hardware
+TBD
+
+Read more
+BigClown Workshop (part 3)
+IoT Open Hardware
+TBD
+
+Read more
+BigClown Workshop (part 4)
+IoT Open Hardware
+TBD
+
+Read more
+
+
+
+Tomáš Časta
+AIMTEC a.s., Czech Republic
+28 let, Plzeň, software developer, zájmy - cestovaní, hokej, fotbal
+
+Sessions
+
+UX zkušenost - nová navigace, design a testy pro DCIx
+Frontend
+Zkušenosti z projektu, kdy jsme předělávali vzhled a ovládání aplikace a potýkali se řadou problémů, co se týče technologií a testování.
+
+Read more
+
+
+Roman Krňoul
+AIMTEC a.s., Czech Republic
+Vystudoval na FAV geomatiku, ale už během studia pracoval v Aimtecu jako programátor automatických testů. Dnes na pozici test managera zajišťuje a zvyšuje kvalitu WMS systému. V soukromém životě především nadšený cestovatel a fotograf.
+
+Sessions
+
+Praktické zkušenosti z 8 let automatického testování WMS systému
+Backend Testing
+Již dlouhou dobu se zabýváme rozsáhlým automatickým testováním WMS systému a máme z této oblasti bohaté zkušenosti. Chtěli bychom se s vámi podělit o několik zajímavých problémů a výzev, s nimiž jsme se v poslední době m...
+
+Read more
+
+
+
+Stanislav Horáček
+AIMTEC a.s., Czech Republic
+Vyvojar, architekt.
+
+Sessions
+
+Dekompozice monolitické aplikace
+Jedna se o case study prechodu od monoliticke aplikace k architekture sluzeb. Zhodnoceni stavu v polovine cesty.
+
+Read more
+
+
+
+Jakub Kotásek
+AIMTEC a.s., Pilsen, Czech Republic
+Vystudoval Softwarové Inženýrství na Fakultě aplikovaných věd Západočeské univerzity. Před šesti lety začal v Aimtecu pracovat jako programátor automatických testů, před třemi roky přestoupil na programátora a nyní vede tým desíti programátorů. Je velmi zapálený do automatického testování a snaží se prosazovat zásady TDD.
+
+Sessions
+
+Čtyři roky retrospektiv
+Co nám retrospektivy přináší, jak to vypadalo z počátku a jak to funguje nyní.
+
+Read more
+Náš hackathon a inovace v Aimtecu
+General
+Jak se snažíme inovovat v striktně plánovaném vývoji. Jak nám k tomu pomáhá formát hackathonu a co chceme zkusit dál.
+
+Read more
+
+
+Jan Šmucr
+AIMTEC a.s., Rokycany, Czech Republic
+Full stack vývojář a systémový administrátor ve společnosti Aimtec (2 roky)
+
+Sessions
+
+Centrální logovací pipeline
+Backend
+Stručně o tom, jak nám v ClouEDI usnadňuje práci centralizované logování v čele s aplikacemi Graylog a Logstash.
+
+Read more
+
+
+
+Jiří Loudil
+AIMTEC a.s., Rokycany, Czech Republic
+System developer ve společnosti AIMTEC
+
+Sessions
+
+Elasticsearch a strukturovaná data
+Backend
+Zkušenosti z nasazení a produkčního provozu Elasticsearch engine nad strukturovanými daty.
+
+Read more
+
+
+Lukáš Rampa
+AIMTEC a.s., Pilsen, Czech Republic
+Kdysi Javista a Perlista, dnes integratér.
+
+Sessions
+
+Apache NiFi
+General
+Jak snadno mezi systémy pumpovat a upravovat velké množství dat bez programování? Apache NiFi je klikací, ale mocný nástroj pro manipulaci s daty na cestě. Má mírně kontroverzní historii, ale může napáchat mnoho dobra.
+
+Read more
+
+
+
+Vlastimil Kramel
+AIMTEC a.s., Pilsen, Czech Republic
+Softwarový vývojář ve společnosti AIMTEC. Specializace na Javu a MSSQL.
+
+Sessions
+
+API Produktu - Server bez klienta
+General
+Zkušenost s implementací produktového API s ohledem na specifika našich zákazníků.
+
+Read more
+
+
+ROCKSTAR SPEAKERS
+AGENDA
+SPONSORS
+TICKETS
+REGISTER
+2015
+Bucuresti
+The biggest Google tech conference in Romania. All about Android, Web and Cloud. Featured talks about VR, gaming and user experience design. We expect 400 attendees from Cluj, Bucharest, Brasov, Iasi, Pitesti, Timisoara and more. 2 days, 25 speakers, 30 sessions.
+ ANDROID CLOUD AND BIGDATA MODERN WEB GAMEDEV & VR UX DESIGN
+Get your ticket
+share on:
+
+Mete Atamel
+Developer Advocate, Google
+
+Mete is a Developer Advocate at Google, currently focused on helping developers...
+
+Jozef Vodicka
+Program Manager Developer Relations at Google
+
+Right now he is a passionate Googler helping developers, developer agencies and startups in...
+
+David Cifuentes
+Software Engineer, Zalando SE
+David is a Software Engineer at Zalando and a Google Developer Expert (GDE) for Cloud...
+
+Felix Crisan
+Founder & CTO, Netopia
+With a working experience of 20 years, all spent in Information Technology areas...
+
+Mark Allison
+Director at Styling Android Limited and GDE for Android
+Mark is a professional software engineer with over 25 years experience. For the past 5...
+
+Florina Muntenescu
+Senior Android Developer at upday
+Florina passionately works at upday as a Senior Android Developer. She has been writing...
+
+Wolfram Rittmeyer
+Software Developer, OpenMinds UG
+Wolfram Rittmeyer is a passionate Android-Developer and loves to share his...
+
+Magda Miu
+Senior Android Developer & Scrum Master at Roweb
+Magda is a passionate Android developer and Scrum Master. She likes new challenges and...
+
+Marius Mailat
+Chief Technology Officer / CEO at P3 digital services
+Marius Mailat is the founder and chief Android expert at P3 digital services and since 2015...
+
+Victor Gradinescu
+Senior Android Developer, Co-founder, Mobile Kinetics
+Victor is the co-organiser of GDG Bucharest and has been involved in the tech community....
+
+Catalin Morosan
+Senior Android Developer, AB4 Systems
+Catalin is passionate about Android and technology that brings value to humanity...
+
+Alin Miu
+Senior Software Developer, Dacia Renault
+Alin is a technology enthusiast and passionate about agile methodologies. With 6 years of...
+
+Alex Paraschiv
+Engineering Manager, Tremend Software Consulting
+A full-stack Software Engineer, a Mobile and web development savvy and a passionate...
+
+Mircea Bratan
+Embedded Software Engineer, Tremend Software Consulting
+Mircea is a talented Embedded Software Engineer in Tremend. Although his interests...
+
+Wiebe Elsinga
+GDE Android
+Besides being a Google Developer Expert for Android, Wiebe Elsinga is a Lead Developer...
+
+Danny Preussler
+Mobile Engineer Android at Viacom
+Danny is in charge of Android development at Viacom in Berlin. Before that he...
+
+Kenneth Rohde Christiansen
+Google Developer Expert, Web Technologies
+Kenneth Rohde Christiansen is a Danish software engineer and architect, specialized...
+
+Andrei Diaconu
+Android Iasi Cofounder
+When a work addict starts learning Android, the final result is someone like Andrei...
+
+Roberto Orgiu
+Android GDE and Android Developer at Ennova
+Right after his degree in Computer Science, Roberto started working for...
+
+Tudor Juravlea
+User Experience Architect, UX Trainer
+Tudor is one of the UX trainers at Scoala Informala de IT Bucuresti. He took...
+
+Alina Catalina Banuleasa
+Digital Experience Manager at Vodafone
+Catalina has been doing user experience and created digital experiences for the past 4 years....
+
+Ovidiu Gheorghe
+Mobile Game Producer
+Ovidiu is a Mobile VR Producer, working on a mobile title for VR headsets...
+
+Bogdan Nenu
+Freelancer
+Bogdan is a freelance full-stack Javascript developer passionate about...
+
+ 
+
+ 
+Mete Atamel
+Developer Advocate, Google
+Mete is a Developer Advocate at Google, currently focused on helping developers with Google Cloud Platform. As a long-time Java and a recent C# developer, he likes to compare the two ecosystems. Prior to Google, he worked at Microsoft, Skype, Adobe, EMC, and Nokia building apps and services on various web, mobile and cloud platforms. Originally from Cyprus, he currently lives in Greenwich, not too far away from the prime meridian.
+
+
+DevFest Paris 2016
+HOME
+BLOG
+SPEAKERS
+SCHEDULE
+ENGLISH
+FRANÇAIS
+Speakers
+Filters
+Chrome
+Web
+IoT
+Cloud
+Go
+Android
+Android Wear
+Android TV
+Apps Script
+Analytics
+BigData
+Firebase
+Google Maps
+Data
+Neo4J
+Java
+Spring
+Polymer
+UX
+Machine Learning
+Kubernetes
+CSS3
+Microservices
+AngularJS
+Keynote
+VR
+DevOps
+Googler
+GDE
+GDG
+CLEAR ALL
+Googler
+François Beaufort
+Google, FR
+Harald à la dent bleue dans ton navigateur web
+Googler
+Francesc Campoy
+Google, US
+Taming the microservice with gRPC and Kubernetes
+GDE
+Cyril Mottier
+Captain Train, FR
+Designing Captain Train Mobile Experience
+GDE
+Xavier Hallade
+Intel, FR
+Étendre ses applications aux smartwatches et télévisions Android
+GDE
+Romain Vialard
+Revevol, FR
+Tracking app usage with Google Analytics
+GDE
+Didier Girard
+Sfeir, FR
+Top 10 des news sur le Cloud
+Googler
+Alexis Moussine-Pouchkine
+Google, FR
+Top 10 des news sur le Cloud
+GDG
+Jean-François Garreau
+SQLI, FR
+Les nouveaux super pouvoirs du web
+Simon Lebrun
+gPartner, FR
+Firebase meets Google Maps
+Thibault Lefevre
+Cirruseo, FR
+Graphes et Recommandations
+Chaïmaa Kadaoui
+Cirruseo, FR
+Graphes et Recommandations
+Stéphane Nicoll
+Pivotal, FR
+Intro à Spring Boot
+Brian Clozel
+Pivotal, FR
+Intro à Spring Boot
+Cyril Balit
+Sfeir, FR
+Polymer 1.0: Production ready
+Hubert Sablonnière
+INEAT Conseil, FR
+Progressive Web Apps : The future is here
+Yann Cadoret
+UX-Republic, FR
+Le rôle du développeur dans la User eXperience (UX)
+Antoine Duplouy
+UX-Republic, FR
+Le rôle du développeur dans la User eXperience (UX)
+Benjamin Talmard
+Microsoft France, FR
+Oxford : Machine Learning dans vos applications
+Pierre-Alban Dewitte
+MyScript, FR
+Composant polymer de reconnaissance d'écriture
+Ray Tsang
+Google, US
+Hands-on with Google Compute Engine and Kubernetes
+Christophe Jollivet
+Apside, FR
+Debugage moderne de JavaScript avec Chrome Dev Tools
+GDG
+Turhan Oz
+Socosmoz, FR
+Eddystone™, the open beacon format from Google
+Mathieu Parisot
+Freelance, FR
+Développez dans le futur, dès maintenant !
+Corentin Leclerc
+Designed4Work, FR
+Monitorer votre infra Cloud Platform en souplesse
+Alexis Tual
+JFrog, FR
+La grande migration vers les microservices
+GDG
+Marc Poppleton
+Orange Labs, FR
+Le magicien Doze
+Pierre Crépieux
+Orange Labs, FR
+Le magicien Doze
+GDE
+Thierry Chatel
+MethoTIC Conseil, FR
+Angular 2 : templates, composants et injection de dépendances
+Googler
+Scott Jenson
+Google, US
+Closing Keynote
+GDG
+Julien Landuré
+Zenika, FR
+HTTP2 : ce qui va changer !
+Wajdi Ben Rabah
+Sfeir, FR
+Android VR with cardboard
+Ludovic Cinquin
+OCTO Technology, FR
+Opening Keynote - Les Géants du Web
+Quentin Veyret
+gPartner, FR
+Firebase meets Google Maps
+GDG
+Edouard Marquez
+Freelance, FR
+Android Studio: introduction à la version 2.0 - astuces pour développeurs
+Jiqiong Qiu
+Sfeir, FR
+Premier pas Deep Learning avec Tensorflow
+Google, FR
+Tags: Chrome Web IoT
+Chromium Evangelist
+François travaille à Google sur le projet Chromium et t'aime énormément.
+
+Harald à la dent bleue dans ton navigateur web
+Language: fr Duration: 45 min Complexity: Intermediate
+Interagir avec des appareils en Bluetooth depuis une application Web est sur le point de devenir possible grâce à une nouvelle API Web standardisée qui se veut moderne et simple d'utilisation.
+
+ 
+François Beaufort
+BACK TO TOP 
+For Visitors
+Meetup GDG Paris
+DevFest Paris 2015
+Code of Conduct
+Google Developers
+For partners
+Partnership Proposition
+Contact Us
+contact@gdgparis.com
+ 
+© 2015  Based on Project Hoverboard. Designed and created by Oleh Zasadnyy · GDG Lviv
+GDG Paris
+ GDG DevFest Paris 2016
+February 5, 2016
+Paris, France
+Home
+Blog
+Speakers
+Schedule
+English
+Français
+
+
+ 
