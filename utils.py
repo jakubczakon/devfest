@@ -4,6 +4,31 @@ import cv2
 from matplotlib import pylab as plt
 
 
+def softmax(vec):
+    vec -= min(A(vec))
+    if max(vec) > 700:
+        a = np.argsort(vec)
+        aa = np.argsort(a)
+        vec = vec[a]
+        i = 0
+        while max(vec) > 700:
+            i += 1
+            vec -= vec[i]
+        vec = vec[aa]
+    e = np.exp(vec)
+    return e/np.sum(e)
+
+def sample_multinomial(w):
+    """
+       Sample multinomial distribution with parameters given by softmax of w
+       Returns an int    
+    """
+    p = softmax(w)
+    x = np.random.uniform(0,1)
+    for i,v in enumerate(np.cumsum(p)):
+        if x < v: return i
+    return len(p)-1 # shouldn't happen..
+
 def rgb2tensor(img,mode="tf"):
     if mode == "th":
         img = np.expand_dims(img.transpose(2,0,1),axis = 0)
