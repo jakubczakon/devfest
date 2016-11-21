@@ -8,3 +8,5 @@ Code base for the presentation
 
 ### Char RNN Keras http://ml4a.github.io/guides/recurrent_neural_networks/
 ### Char RNN Tensorflow https://github.com/sherjilozair/char-rnn-tensorflow/blob/master/train.py
+
+### Style Transfer in Keras https://github.com/titu1994/Neural-Style-Transfer
