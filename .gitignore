@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#directories
+imgs/**
+imgs/*
+imgs/
+
 # models and pickles
 *.h5
 *.pkl
