@@ -1,7 +1,8 @@
 # Google Developers Group Devfest Warsaw 2016 
 ### How to have fun with deep learning
 
-Code base for the presentation
+Code used in the presentation. 
+Enjoy!
 
 #### FizzBizz in tensorflow http://joelgrus.com/2016/05/23/fizz-buzz-in-tensorflow/
 
