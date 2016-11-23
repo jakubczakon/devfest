@@ -3,7 +3,8 @@
 
 ### https://deepsense.io and www.codilime.com/
 
-[https://www.codilime.com/wp-content/uploads/2016/03/codilime-color-logo-white-background-300-jpg.jpg"]
+![alt text][logo]
+logo = https://www.codilime.com/wp-content/uploads/2016/03/codilime-color-logo-white-background-300-jpg.jpg "smth"
 
 
 Code used in the presentation. 
