@@ -1,4 +1,4 @@
-# Google Developers Group Devfest Warsaw 2016   <img src="https://lh3.googleusercontent.com/uYKoyPJ_MnOG5f0xPHPUWIkK7y2rFksB2ZJYRX0f5NQ5W5RNWT8eKmY7MBfdQRd2s3Qn20Oz1QKOra-JBJ04kw-BtHUo6iY=s888" width="250"> 
+# Google Developers Group Devfest Warsaw 2016 <img src="https://lh3.googleusercontent.com/uYKoyPJ_MnOG5f0xPHPUWIkK7y2rFksB2ZJYRX0f5NQ5W5RNWT8eKmY7MBfdQRd2s3Qn20Oz1QKOra-JBJ04kw-BtHUo6iY=s888" width="250"> 
 ## Jakub Czakon
 ## "How to have fun with deep learning"
 
