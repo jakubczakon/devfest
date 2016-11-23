@@ -3,6 +3,8 @@
 
 ### https://deepsense.io and www.codilime.com/
 
+<img src="https://deepsense.io/wp-content/uploads/2016/11/ds.io-logo-big.png" width="48">
+<img src="https://www.codilime.com/wp-content/uploads/2016/03/codilime-color-logo-white-background-300-jpg.jpg" width="48">
 
 ![Alt text](https://deepsense.io/wp-content/uploads/2016/11/ds.io-logo-big.png)
 ![Alt text](https://www.codilime.com/wp-content/uploads/2016/03/codilime-color-logo-white-background-300-jpg.jpg)
