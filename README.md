@@ -9,9 +9,6 @@
 ### www.codilime.com/
 <img src="https://www.codilime.com/wp-content/uploads/2016/03/codilime-color-logo-white-background-300-jpg.jpg" width="250">
 
-#### This is a codebase for all the fun things you've seen during the presentation.
-#### Enjoy!
-
 #### Papers, blogs, repos
 
 FizzBizz in tensorflow http://joelgrus.com/2016/05/23/fizz-buzz-in-tensorflow/
