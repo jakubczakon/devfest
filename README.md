@@ -3,7 +3,7 @@
 
 ### https://deepsense.io and www.codilime.com/
 
-![alt text](https://www.codilime.com/wp-content/uploads/2016/03/codilime-color-logo-white-background-300-jpg.jpg")
+![alt text](https://www.codilime.com/wp-content/uploads/2016/03/codilime-color-logo-white-background-300-jpg")
 
 
 Code used in the presentation. 
