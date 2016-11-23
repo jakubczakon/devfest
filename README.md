@@ -2,10 +2,7 @@
 ## "How to have fun with deep learning"
 
 ### https://deepsense.io and www.codilime.com/
-
-![alt text][logo]
-logo = https://www.codilime.com/wp-content/uploads/2016/03/codilime-color-logo-white-background-300-jpg.jpg 
-
+![Alt text](https://www.codilime.com/wp-content/uploads/2016/03/codilime-color-logo-white-background-300-jpg.jpg)
 
 Code used in the presentation. 
 Enjoy!
