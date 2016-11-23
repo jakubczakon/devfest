@@ -1,16 +1,17 @@
 # Google Developers Group Devfest Warsaw 2016 
 ### How to have fun with deep learning
 
+### With https://deepsense.io and www.codilime.com/
 Code used in the presentation. 
 Enjoy!
 
-#### FizzBizz in tensorflow http://joelgrus.com/2016/05/23/fizz-buzz-in-tensorflow/
+FizzBizz in tensorflow http://joelgrus.com/2016/05/23/fizz-buzz-in-tensorflow/
 
-#### Google blog post about deep dreaming https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html
+Google blog post about deep dreaming https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html
 
-#### Deep Jazz project https://github.com/jisungk/deepjazz
+Deep Jazz project https://github.com/jisungk/deepjazz
 
-#### Char RNN Tensorflow https://github.com/sherjilozair/char-rnn-tensorflow/blob/master/train.py
+Char RNN Tensorflow https://github.com/sherjilozair/char-rnn-tensorflow/blob/master/train.py
 
 #### Style Transfer in Keras https://github.com/titu1994/Neural-Style-Transfer
 #### Style transfer paper https://arxiv.org/abs/1508.06576
