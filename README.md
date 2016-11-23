@@ -1,7 +1,8 @@
 # Google Developers Group Devfest Warsaw 2016 
-### How to have fun with deep learning
+### "How to have fun with deep learning"
 
-### With https://deepsense.io and www.codilime.com/
+#### With https://deepsense.io and www.codilime.com/
+
 Code used in the presentation. 
 Enjoy!
 
@@ -13,10 +14,10 @@ Deep Jazz project https://github.com/jisungk/deepjazz
 
 Char RNN Tensorflow https://github.com/sherjilozair/char-rnn-tensorflow/blob/master/train.py
 
-#### Style Transfer in Keras https://github.com/titu1994/Neural-Style-Transfer
-#### Style transfer paper https://arxiv.org/abs/1508.06576
+Style Transfer in Keras https://github.com/titu1994/Neural-Style-Transfer
+Style transfer paper https://arxiv.org/abs/1508.06576
 
-#### Magic the Gathering card generation forum thread http://www.mtgsalvation.com/forums/creativity/custom-card-creation/612057-generating-magic-cards-using-deep-recurrent-neural?page=98
+Magic the Gathering card generation forum thread http://www.mtgsalvation.com/forums/creativity/custom-card-creation/612057-generating-magic-cards-using-deep-recurrent-neural?page=98
 
 
 
