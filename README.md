@@ -3,9 +3,7 @@
 
 ### https://deepsense.io and www.codilime.com/
 
-<img src="https://deepsense.io/wp-content/uploads/2016/11/ds.io-logo-big.png" width="148">
-
-<img src="https://www.codilime.com/wp-content/uploads/2016/03/codilime-color-logo-white-background-300-jpg.jpg" width="148">
+<img src="https://deepsense.io/wp-content/uploads/2016/11/ds.io-logo-big.png" width="250">        <img src="https://www.codilime.com/wp-content/uploads/2016/03/codilime-color-logo-white-background-300-jpg.jpg" width="250">
 
 Code used in the presentation. 
 Enjoy!
