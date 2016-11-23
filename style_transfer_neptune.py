@@ -12,8 +12,33 @@ from keras.applications import vgg16
 from keras import backend as K
 
 from matplotlib import pylab as plt
+from PIL import Image
 
 from deepsense import neptune
+
+# these are the weights of the different loss components
+total_variation_weight = 1.
+style_weight = 1.
+content_weight = 0.025
+
+def set_total_variation_weight(value):
+    global total_variation_weight
+    total_variation_weight  = float(value)
+    return str(total_variation_weight)
+
+def set_style_weight(value):
+    global style_weight
+    style_weight  = float(value)
+    return str(style_weight)
+    
+def set_content_weight(value):
+    global content_weight
+    content_weight  = float(value)
+    return str(content_weight)
+    
+def restart_style_transfer(value):
+    run_style_transfer()
+    return str(value)
 
 ctx = neptune.Context()
 
@@ -21,24 +46,27 @@ logging_channel = ctx.job.create_channel(
     name='logging_channel',
     channel_type=neptune.ChannelType.TEXT)
 
+loss_channel = ctx.job.create_channel(
+    name='training loss',
+    channel_type=neptune.ChannelType.NUMERIC)
+
 result_channel = ctx.job.create_channel(
     name='result image',
     channel_type=neptune.ChannelType.IMAGE)
+
+ctx.job.register_action(name='total', handler = set_total_variation_weight)
+ctx.job.register_action(name='style', handler = set_style_weight)
+ctx.job.register_action(name='content', handler = set_content_weight)
+ctx.job.register_action(name='restart', handler = restart_style_transfer)
+
+ctx.job.tags.append('h5py')
 
 ctx.job.finalize_preparation()
 
 base_image_path = (ctx.params.base_file)
 style_reference_image_path = (ctx.params.style_file)
 results_images_path = (ctx.params.output_folder)
-
-#base_image_path = os.path.join("data","kuba.jpg")
-#style_reference_image_path = os.path.join("data","devfest_gdg.jpg")
-#results_images_path = os.path.join("results")
-
-# these are the weights of the different loss components
-total_variation_weight = 1.
-style_weight = 1.
-content_weight = 0.025
+nr_iter = (ctx.params.nr_iter)
 
 # dimensions of the generated picture.
 img_nrows = 200
@@ -71,8 +99,8 @@ def stylish_neptune_image(raw_image):
         name="Kuba in GDG style",
         description="style transfered image",
         data=stylish_image)
-
-if __name__ == "__main__":
+    
+def run_style_transfer():
     # get tensor representations of our images
     base_image = K.variable(preprocess_image(base_image_path))
     style_reference_image = K.variable(preprocess_image(style_reference_image_path))
@@ -206,13 +234,14 @@ if __name__ == "__main__":
     # so as to minimize the neural style loss
     x = np.random.uniform(0, 255, (1, img_nrows, img_ncols, 3)) - 128.
 
-    for i in range(100):
+    for i in range(nr_iter):
         logging_channel.send(x = time.time(),y = 'Iteration: %s'%i)
         
         start_time = time.time()
         x, min_val, info = fmin_l_bfgs_b(evaluator.loss, x.flatten(),
                                          fprime=evaluator.grads, maxfun=20)
         logging_channel.send(x = time.time(),y = 'Current loss value: %s'%min_val)
+        loss_channel.send(x = i,y = float(min_val))
 
         # save current generated image
         img = deprocess_image(x.copy())
@@ -222,3 +251,6 @@ if __name__ == "__main__":
 
         end_time = time.time()
         logging_channel.send(x = time.time(),y = 'Iteration %d completed in %ds' % (i, end_time - start_time))  
+        
+if __name__ == "__main__":
+    run_style_transfer()

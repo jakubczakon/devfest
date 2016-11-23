@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-name: Style transfer training
+name: Deep Dream training
 project: Devfest
 parameters:
     
@@ -29,8 +29,8 @@ parameters:
     required: False
     
   - name: dream_iter
-    type: ing
-    default: 100
+    type: int
+    default: 1000
     required: False
     
   - name: output_folder
