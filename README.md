@@ -1,7 +1,7 @@
 # Google Developers Group Devfest Warsaw 2016 
-### "How to have fun with deep learning"
+## "How to have fun with deep learning"
 
-#### With https://deepsense.io and www.codilime.com/
+### https://deepsense.io and www.codilime.com/
 
 Code used in the presentation. 
 Enjoy!
