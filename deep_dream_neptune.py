@@ -6,7 +6,7 @@ import time
 import numpy as np
 
 from matplotlib import pylab as plt
-import cv2
+from PIL import Image
 
 from scipy.misc import imsave
 from scipy.optimize import fmin_l_bfgs_b
@@ -18,35 +18,15 @@ from keras.layers import Input
 
 from deepsense import neptune
 
-ctx = neptune.Context()
-
-logging_channel = ctx.job.create_channel(
-    name='logging_channel',
-    channel_type=neptune.ChannelType.TEXT)
-
-result_channel = ctx.job.create_channel(
-    name='result image',
-    channel_type=neptune.ChannelType.IMAGE)
-
-ctx.job.finalize_preparation()
-
-base_image_path = (ctx.params.base_file)
-dream_type = (ctx.params.dream_type)
-dream_iter = (ctx.params.dream_iter)
-results_images_path = (ctx.params.output_folder)
-
-
-# dimensions of the generated picture.
-img_width = 300
-img_height = 300
-
-# some settings we found interesting
 saved_settings = {
-    'cool_trip': {'features': {'block1_conv1': 0.05,
-                              'block2_conv2': 0.05,
-                              'block3_conv3': 0.05},
+    'cool_trip': {'features': {'block5_conv3': 0.03},
                  'continuity': 0.1,
-                 'dream_l2': 0.3,
+                 'dream_l2': 0.02,
+                 'jitter': 5},
+    'hardcore': {'features': {'block5_conv3': 0.9,
+                             'block5_conv2': 0.9},
+                 'continuity': 0.9,
+                 'dream_l2': 0.9,
                  'jitter': 5},
     'bad_trip': {'features': {'block4_conv1': 0.05,
                               'block4_conv2': 0.01,
@@ -60,8 +40,59 @@ saved_settings = {
                'dream_l2': 0.02,
                'jitter': 0},
 }
-# the settings we will use in this experiment
-settings = saved_settings[dream_type]
+
+settings = saved_settings['cool_trip']
+continuity = settings['continuity']
+dream_l2 = settings['dream_l2']
+jitter = settings['jitter']
+
+def set_continuity(value):
+    global continuity
+    continuity  = float(value)
+    return str(continuity)
+
+def set_dream_l2(value):
+    global dream_l2
+    dream_l2  = float(value)
+    return str(dream_l2)
+    
+def set_jitter(value):
+    global jitter
+    jitter  = float(value)
+    return str(jitter)
+    
+ctx = neptune.Context()
+
+logging_channel = ctx.job.create_channel(
+    name='logging_channel',
+    channel_type=neptune.ChannelType.TEXT)
+
+loss_channel = ctx.job.create_channel(
+    name='training loss',
+    channel_type=neptune.ChannelType.NUMERIC)
+
+result_channel = ctx.job.create_channel(
+    name='result image',
+    channel_type=neptune.ChannelType.IMAGE)
+
+ctx.job.register_action(name='set continuity', handler = set_continuity)
+ctx.job.register_action(name='set dream l2', handler = set_dream_l2)
+ctx.job.register_action(name='set jitter', handler = set_jitter)
+
+ctx.job.finalize_preparation()
+
+
+logging_channel.send(x = time.time(),y = settings)
+
+base_image_path = (ctx.params.base_file)
+dream_type = (ctx.params.dream_type)
+dream_iter = (ctx.params.dream_iter)
+results_images_path = (ctx.params.output_folder)
+
+
+# dimensions of the generated picture.
+img_width = 300
+img_height = 300
 
 def preprocess_image(image_path):
     img = load_img(image_path, target_size=(img_width, img_height))
@@ -105,7 +136,7 @@ if __name__ == "__main__":
     logging_channel.send(x = time.time(),y = "Building Objects...")
     # get the symbolic outputs of each "key" layer (we gave them unique names).
     outputs_dict = dict([(layer.name, layer.output) for layer in model.layers])
-    
+
     # get the symbolic outputs of each "key" layer (we gave them unique names).
     layer_dict = dict([(layer.name, layer) for layer in model.layers])
 
@@ -126,92 +157,90 @@ if __name__ == "__main__":
         coeff = settings['features'][layer_name]
         x = layer_dict[layer_name].output
         shape = layer_dict[layer_name].output_shape
-        print(shape)
+
         # we avoid border artifacts by only involving non-border pixels in the loss
         loss -= coeff * K.sum(K.square(x[:, 2: shape[1] - 2, 2: shape[2] - 2, :])) / np.prod(shape[1:])
 
-    # add continuity loss (gives image local coherence, can result in an artful blur)
-    loss += settings['continuity'] * continuity_loss(dream) / np.prod(img_size)
-    # add image L2 norm to loss (prevents pixels from taking very high values, makes image darker)
-    loss += settings['dream_l2'] * K.sum(K.square(dream)) / np.prod(img_size)
+        # add continuity loss (gives image local coherence, can result in an artful blur)
+        loss += continuity* continuity_loss(dream) / np.prod(img_size)
+        # add image L2 norm to loss (prevents pixels from taking very high values, makes image darker)
+        loss += dream_l2 * K.sum(K.square(dream)) / np.prod(img_size)
 
-    # feel free to further modify the loss as you see fit, to achieve new effects...
+        # feel free to further modify the loss as you see fit, to achieve new effects...
 
-    # compute the gradients of the dream wrt the loss
-    grads = K.gradients(loss, dream)
+        # compute the gradients of the dream wrt the loss
+        grads = K.gradients(loss, dream)
 
-    outputs = [loss]
-    if type(grads) in {list, tuple}:
-        outputs += grads
-    else:
-        outputs.append(grads)
-
-    f_outputs = K.function([dream], outputs)
-    def eval_loss_and_grads(x):
-        x = x.reshape((1,) + img_size)
-        outs = f_outputs([x])
-        loss_value = outs[0]
-        if len(outs[1:]) == 1:
-            grad_values = outs[1].flatten().astype('float64')
+        outputs = [loss]
+        if type(grads) in {list, tuple}:
+            outputs += grads
         else:
-            grad_values = np.array(outs[1:]).flatten().astype('float64')
-        return loss_value, grad_values
+            outputs.append(grads)
 
-    # this Evaluator class makes it possible
-    # to compute loss and gradients in one pass
-    # while retrieving them via two separate functions,
-    # "loss" and "grads". This is done because scipy.optimize
-    # requires separate functions for loss and gradients,
-    # but computing them separately would be inefficient.
-    class Evaluator(object):
-        def __init__(self):
-            self.loss_value = None
-            self.grad_values = None
+        f_outputs = K.function([dream], outputs)
+        def eval_loss_and_grads(x):
+            x = x.reshape((1,) + img_size)
+            outs = f_outputs([x])
+            loss_value = outs[0]
+            if len(outs[1:]) == 1:
+                grad_values = outs[1].flatten().astype('float64')
+            else:
+                grad_values = np.array(outs[1:]).flatten().astype('float64')
+            return loss_value, grad_values
 
-        def loss(self, x):
-            assert self.loss_value is None
-            loss_value, grad_values = eval_loss_and_grads(x)
-            self.loss_value = loss_value
-            self.grad_values = grad_values
-            return self.loss_value
+        # this Evaluator class makes it possible
+        # to compute loss and gradients in one pass
+        # while retrieving them via two separate functions,
+        # "loss" and "grads". This is done because scipy.optimize
+        # requires separate functions for loss and gradients,
+        # but computing them separately would be inefficient.
+        class Evaluator(object):
+            def __init__(self):
+                self.loss_value = None
+                self.grad_values = None
 
-        def grads(self, x):
-            assert self.loss_value is not None
-            grad_values = np.copy(self.grad_values)
-            self.loss_value = None
-            self.grad_values = None
-            return grad_values
-    
-    logging_channel.send(x = time.time(),y = "Resuming Deep Dream")
-    
-    evaluator = Evaluator()
+            def loss(self, x):
+                assert self.loss_value is None
+                loss_value, grad_values = eval_loss_and_grads(x)
+                self.loss_value = loss_value
+                self.grad_values = grad_values
+                return self.loss_value
 
-    # run scipy-based optimization (L-BFGS) over the pixels of the generated image
-    # so as to minimize the loss
-    x = preprocess_image(base_image_path)
+            def grads(self, x):
+                assert self.loss_value is not None
+                grad_values = np.copy(self.grad_values)
+                self.loss_value = None
+                self.grad_values = None
+                return grad_values
 
-    for i in range(dream_iter):
-        logging_channel.send(x = time.time(),y = 'Iteration: %s'%i)
-        start_time = time.time()
+        logging_channel.send(x = time.time(),y = "Resuming Deep Dream")    
 
-        # add a random jitter to the initial image. This will be reverted at decoding time
-        random_jitter = (settings['jitter'] * 2) * (np.random.random(img_size) - 0.5)
-        x += random_jitter
-
-        # run L-BFGS for 7 steps
-        x, min_val, info = fmin_l_bfgs_b(evaluator.loss, x.flatten(),
-                                         fprime=evaluator.grads, maxfun=7)
-        logging_channel.send(x = time.time(),y = 'Current loss value: %s'%min_val)
-        # decode the dream and save it
-        x = x.reshape(img_size)
-        x -= random_jitter
-        img = deprocess_image(np.copy(x))
-        plt.imsave(os.path.join(results_images_path,"deep_dream_%s.jpg"%i),img)
-        result_channel.send(x = time.time(),y = stylish_neptune_image(img))
-        end_time = time.time()
-        
-        logging_channel.send(x = time.time(),y = 'Iteration %d completed in %ds' % (i, end_time - start_time))  
+        evaluator = Evaluator()
 
         # run scipy-based optimization (L-BFGS) over the pixels of the generated image
-        # so as to minimize the neural style loss
-        x = np.random.uniform(0, 255, (1, img_nrows, img_ncols, 3)) - 128.
+        # so as to minimize the loss
+        x = preprocess_image(base_image_path)
+
+        for i in range(dream_iter):
+            logging_channel.send(x = time.time(),y = 'Iteration: %s'%i)
+            start_time = time.time()
+
+            # add a random jitter to the initial image. This will be reverted at decoding time
+            random_jitter = (jitter* 2) * (np.random.random(img_size) - 0.5)
+            x += random_jitter
+
+            # run L-BFGS for 7 steps
+            x, min_val, info = fmin_l_bfgs_b(evaluator.loss, x.flatten(),
+                                             fprime=evaluator.grads, maxfun=7)
+            logging_channel.send(x = time.time(),y = 'Current loss value: %s'%min_val)
+            loss_channel.send(x = i,y = float(min_val))
+
+            # decode the dream and save it
+            x = x.reshape(img_size)
+            x -= random_jitter
+            img = deprocess_image(np.copy(x))
+            plt.imsave(os.path.join(results_images_path,"deep_dream_%s.jpg"%i),img)
+            result_channel.send(x = time.time(),y = stylish_neptune_image(img))
+            end_time = time.time()
+
+            logging_channel.send(x = time.time(),y = 'Iteration %d completed in %ds' % (i, end_time - start_time))  

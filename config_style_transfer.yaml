@@ -31,3 +31,8 @@ parameters:
     type: string
     default: /mnt/storage_codi/jczakon/data/style_transfer_output
     required: False
+
+  - name: nr_iter
+    type: int
+    default: 1000
+    required: False
